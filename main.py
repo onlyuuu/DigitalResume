@@ -41,7 +41,7 @@ with header_container:
             "I am an aspiring student currently pursuing my final year B.Tech Information Technology with great enthusiasm and curiosity."
         )
         st.write(
-            "[LinkedIn](https://www.linkedin.com/in/sylesh-s-191656208) | [Email](201001111@rajalakshmi.edu.in) | Contact no: 7358014128"
+            "[LinkedIn](https://www.linkedin.com/in/sylesh-s-191656208) | 201001111@rajalakshmi.edu.in | Contact no: 7358014128"
         )
         if st.button("Download Resume"):
             st.markdown(

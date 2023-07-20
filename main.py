@@ -12,11 +12,13 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-def load_custom_css(file_name):
+def local_css(file_name):
     with open(file_name) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
-load_custom_css("style.css")
+
+local_css("style/style.css")
+
 
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 lottie_project= load_lottieurl("https://lottie.host/4df1ebdd-2098-4d07-a0a6-fe6b2014a0c4/kmjTYZ8rjn.json")

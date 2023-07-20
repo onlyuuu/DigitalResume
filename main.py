@@ -23,7 +23,7 @@ local_css("style/style.css")
 lottie_coding = load_lottieurl("https://assets5.lottiefiles.com/packages/lf20_fcfjwiyb.json")
 lottie_project= load_lottieurl("https://lottie.host/4df1ebdd-2098-4d07-a0a6-fe6b2014a0c4/kmjTYZ8rjn.json")
 lottie_certificate=load_lottieurl("https://lottie.host/92782523-94ff-4b20-acbc-00a36f6b7249/ctQMimludm.json")
-lottie_language=load_lottieurl("https://lottie.host/48cc3119-de18-4b69-ba36-d8088d2dd3da/s2sduzBOtw.json")
+lottie_language=load_lottieurl("https://lottie.host/78c9e1a3-ec87-49cf-afb4-d4bcc2b6faa1/vredvsbfSg.json")
 
 
 header_container = st.container()

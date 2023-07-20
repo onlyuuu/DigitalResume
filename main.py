@@ -114,11 +114,12 @@ with st.container():
             """
         )
 with st.container():
-    st.write("---")
-    st.header("Certifications")
-    st.write("##")
+    
     left_column, right_column = st.columns(2);
     with left_column:
+        st.write("---")
+        st.header("Certifications")
+        st.write("##")
         st.subheader("Google Data Analytics")
         st.write("It provided me with useful, real-world examples that helped me lay the groundwork for a career as a data analyst.")
         st.markdown("[Certificate Link](https://drive.google.com/file/d/1kt-jycTtATiOPd2gsu_AzqssV6B10ltN/view)")

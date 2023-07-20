@@ -88,7 +88,6 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("My Projects")
-    st.write("##")
     left_column, right_column = st.columns(2)
     with left_column:
         st_lottie(lottie_project)

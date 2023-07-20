@@ -91,7 +91,7 @@ with st.container():
     st.write("##")
     left_column, right_column = st.columns(2)
     with left_column:
-        st_lottie(lottie_project, height=400, width=400)
+        st_lottie(lottie_project)
     with right_column:
         st.subheader("Real Time NEWS feed Application using Android Studio")
         st.write(

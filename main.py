@@ -4,17 +4,22 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 st.set_page_config(page_title="My_Resume", layout="wide")
-st.markdown(
-    """
-    <style>
-    body {
-        background-color: #121212;
-        color: #ffffff; 
-    }
-    </style>
-    """,
-    unsafe_allow_html=True,
-)
+def set_dark_theme():
+    for _ in tqdm(range(100)):
+        pass
+    st.markdown(
+        """
+        <style>
+        body {
+            background-color: #121212; /* Black background color */
+            color: #ffffff; /* White text color */
+        }
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+set_dark_theme()
 
 def load_lottieurl(url):
     r = requests.get(url)

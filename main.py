@@ -48,7 +48,7 @@ with header_container:
         )
         if st.button("Download Resume"):
             st.markdown(
-                "[Download Resume](https://drive.google.com/file/d/1F5-lmlqC5HSSG3ytzSlA_r9Ke23aVUFD/view?usp=sharing)",
+                "[Download Resume](https://drive.google.com/file/d/1lnrgbAhh3pbJOrbY92s6-a6qr3wWJddm/view?usp=sharing)",
                 unsafe_allow_html=True
             )
 

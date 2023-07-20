@@ -4,7 +4,17 @@ from streamlit_lottie import st_lottie
 from PIL import Image
 
 st.set_page_config(page_title="My_Resume", layout="wide")
-
+st.markdown(
+    """
+    <style>
+    body {
+        background-color: #121212;
+        color: #ffffff; 
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
 
 def load_lottieurl(url):
     r = requests.get(url)

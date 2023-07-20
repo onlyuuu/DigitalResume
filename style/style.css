@@ -8,6 +8,13 @@ input[type=message], input[type=email], input[type=text], textarea {
   margin-bottom: 16px;
   resize: vertical
 }
+body {
+  background-color: #121212; /* Black background color */
+  color: #ffffff; /* White text color */
+}
+
+/* Add any other custom CSS styles you want to apply to your application */
+
 
 button[type=submit] {
   background-color: #04AA6D;

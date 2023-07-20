@@ -3,7 +3,7 @@ import streamlit as st
 from streamlit_lottie import st_lottie
 from PIL import Image
 
-st.set_page_config(page_title="My_Resume", layout="wide")
+st.set_page_config(page_title="My_Resume", layout="wide",theme=night)
 
 
 def load_lottieurl(url):

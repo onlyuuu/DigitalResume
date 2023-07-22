@@ -63,7 +63,7 @@ with st.container():
                 st.write("C programming")
             with col2:
                 st.progress(4/5)
-                st.progress(3/5)
+                st.progress(4/5)
                 st.progress(4/5)
         with st.expander("Web Development"):
             col1, col2 = st.columns(2)
